@@ -1,0 +1,134 @@
+.dashboard {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #444;
+}
+
+.app-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.app-title {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+}
+
+.sidebar ul li {
+  padding: 15px;
+  text-align: left;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.sidebar ul li a:hover {
+  background-color: #575757;
+}
+
+.sidebar ul li a.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.main-content {
+  flex: 1;
+  padding-top: 100px;
+  margin-left: 600px; /* Adjust according to the sidebar width */
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: end;
+  position: absolute;
+  top: 0;
+  left: 250px;
+  right: 0;
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  margin: 10px 10px 0 10px; /* Adjust according to the sidebar width and desired margin */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.name_text{
+  margin-right: 10px;
+}
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.profile-info span {
+  font-weight: bold;
+}
+
+.profile-actions {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 5px;
+  z-index: 1;
+}
+
+.profile-info:hover .profile-actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-actions a, .profile-actions button {
+  color: #007bff;
+  text-decoration: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.profile-actions button {
+  color: #007bff;
+}
+
+.profile-actions a:hover, .profile-actions button:hover {
+  text-decoration: underline;
+}

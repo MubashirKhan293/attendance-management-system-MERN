@@ -1,0 +1,19 @@
+.edit-profile {
+    padding: 20px;
+  }
+  
+  .edit-profile form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .edit-profile form div {
+    margin-bottom: 15px;
+  }
+  
+  .edit-profile form button {
+    width: 100%;
+    max-width: 200px;
+  }
+  

@@ -1,0 +1,61 @@
+.leave-requests-container {
+    padding: 20px;
+    margin-left: 250px;
+  }
+  
+  .leave-requests-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leave-requests-table th, .leave-requests-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .leave-requests-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .leave-requests-table td {
+    vertical-align: middle;
+  }
+  
+  .btn {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-add {
+    background-color: #4CAF50; /* Green */
+    color: white; 
+  }
+  
+  .btn-edit {
+    background-color: #1d5a1f; /* Orange */
+    color: white;
+  }
+  
+  .btn-update {
+    background-color: #008CBA; /* Blue */
+    color: white;
+  }
+  
+  .btn-delete {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+  
+  .add-attendance-form,
+  .edit-attendance-form {
+    margin-bottom: 20px;
+  }
+  
+  .add-attendance-form input,
+  .edit-attendance-form input {
+    margin-right: 10px;
+  }
+  
